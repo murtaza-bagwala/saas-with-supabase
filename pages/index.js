@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import {supabase} from "../utils/supabase"
 import Link from 'next/link'
+import {useUser} from "../context/user"
 
 export default function Home({lessons}) {
   return (
